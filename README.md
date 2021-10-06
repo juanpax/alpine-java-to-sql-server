@@ -1,4 +1,4 @@
-# Test Linux Java app to connect with SQL Server
+# Test Linux Java app connecting to SQL Server
 
 ## 1. Install dependencies 
 
