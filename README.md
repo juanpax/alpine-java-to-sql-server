@@ -22,16 +22,13 @@
 ## 3. Decompress the file:
 > tar -zxvf index.html?linkid\=2153521
 
-## 4. Check jdbc file
-> You should now have to be able to see the jdbc file in the folder sqljdbc_9.2/enu/mssql-jdbc-9.2.0.jre8.jar
-
-## 5. Create sqlserver-connection.java file inside /home/site/wwwroot/ and put the content you have inside this repository
+## 4. Create sqlserver-connection.java file inside /home/site/wwwroot/ and put the content you have inside this repository
 > nano sqlserver-connection.java
 
-## 6. Compile sqlserver-connection.java:
+## 5. Compile sqlserver-connection.java:
 javac -cp ".:sqljdbc_9.2/enu/mssql-jdbc-9.2.0.jre8.jar" sqlserver-connection.java
 
-## 7. Run generated java class:
+## 6. Run generated java class:
 java -cp ".:sqljdbc_9.2/enu/mssql-jdbc-9.2.0.jre8.jar" SQLDatabaseConnection
 
 ## Result:
